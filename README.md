@@ -54,7 +54,7 @@ re → Regex for text filtering
 
 json → Output formatting
 
-Install dependencies:
+#Install dependencies:
 
 ```bash
 
@@ -69,7 +69,7 @@ Step 1: Add PDFs
 ```bash
 mkdir input
 ```
-# Place PDFs inside the input folder
+Place PDFs inside the input folder
 Step 2: Run the Script
 ```bash
 python main.py
