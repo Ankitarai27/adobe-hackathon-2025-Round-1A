@@ -1,11 +1,11 @@
-# Adobe-Hackathon-2025-Round-1A
+## Adobe-Hackathon-2025-Round-1A
 📄 PDF Outline Extractor (Adobe Hackathon Round 1A)
 
-✅ Overview
+## ✅ Overview
 This project extracts headings (H1, H2, H3) and the document title from PDF files and outputs them in JSON format. It uses font size analysis and text pattern rules to detect document structure.
 
-✅ How It Works
-Input
+## 🚀 How It Works
+# Input
 -Place your PDF files inside the input/ folder.
 -Processing
 -Script parses PDFs using pdfminer.six
@@ -15,7 +15,7 @@ Input
 -Regex for numbering patterns
 -Filtering negative keywords & noise
 
-Output
+# Output
 -For each PDF in input/, a corresponding JSON file is created in output/.
 
 Example:
