@@ -34,12 +34,14 @@ output/file01.json
 graphql
 Copy
 Edit
+```
 .
 ├── input/         # PDF files to process
 ├── output/        # JSON outputs
 ├── main.py        # Main script
 ├── requirements.txt
 └── Dockerfile
+```
 ✅ Libraries Used
 pdfminer.six → PDF parsing and text extraction
 
