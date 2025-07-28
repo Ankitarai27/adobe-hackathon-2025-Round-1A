@@ -1,5 +1,4 @@
 # Adobe-Hackathon-2025-Round-1A
-
 📄 PDF Outline Extractor (Adobe Hackathon Round 1A)
 
 ✅ Overview
@@ -57,88 +56,25 @@ json → Output formatting
 
 Install dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-requirements.txt
+```bash
 
-ini
-Copy
-Edit
+pip install -r requirements.txt
+```
+requirements.txt
+```bash
 pdfminer.six==20221105
+```
 ✅ How to Run Locally
 Step 1: Add PDFs
-bash
-Copy
-Edit
+```bash
 mkdir input
+```
 # Place PDFs inside the input folder
 Step 2: Run the Script
-bash
-Copy
-Edit
+```bash
 python main.py
+```
 Step 3: Get Output
-bash
-Copy
-Edit
+```bash
 ls output/
 
-Filtering negative keywords & noise.
-
-3. Output
-For each PDF in input/, a corresponding JSON file is created in output/.
-
-Example:
-Input: input/file01.pdf
-Output: output/file01.json
-
-✅ Folder Structure
-
-graphql
-Copy
-Edit
-```
-.
-├── input/         # PDF files to process
-├── output/        # JSON outputs
-├── main.py        # Main script
-├── requirements.txt
-└── Dockerfile
-```
-
-✅ Libraries Used
-
-pdfminer.six → PDF parsing and text extraction.
-
-re (regex) → Cleaning and pattern matching.
-
-json → Output formatting.
-
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-requirements.txt
-
-ini
-Copy
-Edit
-pdfminer.six==20221105
-
-✅ How to Run Locally
-
-Step 1: Add PDFs
-Put all your PDFs inside the input/ folder.
-
-Step 2: Run the Script
-bash
-Copy
-Edit
-python main.py
-
-Step 3: Get Output
-Check the output/ folder for the JSON results.
