@@ -6,37 +6,30 @@ This project extracts headings (H1, H2, H3) and the document title from PDF file
 
 ✅ How It Works
 Input
-Place your PDF files inside the input/ folder.
-
-Processing
-Script parses PDFs using pdfminer.six
-
-Extracts font size & text blocks
-
-Determines title and headings using:
-
-Font-size thresholds
-
-Regex for numbering patterns
-
-Filtering negative keywords & noise
+-Place your PDF files inside the input/ folder.
+-Processing
+-Script parses PDFs using pdfminer.six
+-Extracts font size & text blocks
+-Determines title and headings using:
+-Font-size thresholds
+-Regex for numbering patterns
+-Filtering negative keywords & noise
 
 Output
-For each PDF in input/, a corresponding JSON file is created in output/.
+-For each PDF in input/, a corresponding JSON file is created in output/.
 
 Example:
 Input:
 
-bash
-Copy
-Edit
+```bash
+
 input/file01.pdf
+```
 Output:
 
-bash
-Copy
-Edit
+```bash
 output/file01.json
+```
 ✅ Folder Structure
 graphql
 Copy
@@ -65,6 +58,7 @@ requirements.txt
 pdfminer.six==20221105
 ```
 ✅ How to Run Locally
+
 Step 1: Add PDFs
 ```bash
 mkdir input
