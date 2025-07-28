@@ -1,22 +1,26 @@
 ## Adobe-Hackathon-2025-Round-1A
+# Challenge Theme: Connecting the Dots Through Docs
+# Round 1A: Understand Your Document
+
 📄 PDF Outline Extractor (Adobe Hackathon Round 1A)
 
 ## ✅ Overview
 This project extracts headings (H1, H2, H3) and the document title from PDF files and outputs them in JSON format. It uses font size analysis and text pattern rules to detect document structure.
 
 ## 🚀 How It Works
-# Input
--Place your PDF files inside the input/ folder.
--Processing
--Script parses PDFs using pdfminer.six
--Extracts font size & text blocks
--Determines title and headings using:
--Font-size thresholds
--Regex for numbering patterns
--Filtering negative keywords & noise
 
-# Output
--For each PDF in input/, a corresponding JSON file is created in output/.
+# 📥 Input
+- Place your PDF files inside the input/ folder.
+- Processing
+- Script parses PDFs using pdfminer.six
+- Extracts font size & text blocks
+- Determines title and headings using:
+- Font-size thresholds
+- Regex for numbering patterns
+- Filtering negative keywords & noise
+
+# 📤 Output
+- For each PDF in input/, a corresponding JSON file is created in output/.
 
 Example:
 Input:
@@ -42,12 +46,12 @@ Edit
 ├── requirements.txt
 └── Dockerfile
 ```
-✅ Libraries Used
-pdfminer.six → PDF parsing and text extraction
+## 🧠 Libraries Used
+- pdfminer.six → PDF parsing and text extraction
 
-re → Regex for text filtering
+- re → Regex for text filtering
 
-json → Output formatting
+- json → Output formatting
 
 #Install dependencies:
 
@@ -59,7 +63,7 @@ requirements.txt
 ```bash
 pdfminer.six==20221105
 ```
-✅ How to Run Locally
+## ▶ How to Run
 
 Step 1: Add PDFs
 ```bash
