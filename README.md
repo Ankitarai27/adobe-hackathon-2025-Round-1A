@@ -1,6 +1,6 @@
-## Adobe-Hackathon-2025-Round-1A
-# Challenge Theme: Connecting the Dots Through Docs
-# Round 1A: Understand Your Document
+# Adobe-Hackathon-2025-Round-1A
+## Challenge Theme: Connecting the Dots Through Docs
+## Round 1A: Understand Your Document
 
 📄 PDF Outline Extractor (Adobe Hackathon Round 1A)
 
@@ -9,7 +9,7 @@ This project extracts headings (H1, H2, H3) and the document title from PDF file
 
 ## 🚀 How It Works
 
-# 📥 Input
+## 📥 Input
 - Place your PDF files inside the input/ folder.
 - Processing
 - Script parses PDFs using pdfminer.six
@@ -19,7 +19,7 @@ This project extracts headings (H1, H2, H3) and the document title from PDF file
 - Regex for numbering patterns
 - Filtering negative keywords & noise
 
-# 📤 Output
+## 📤 Output
 - For each PDF in input/, a corresponding JSON file is created in output/.
 
 Example:
